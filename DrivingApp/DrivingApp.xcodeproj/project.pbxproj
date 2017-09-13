@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF17AF331F69DDC8001CAA55 /* Garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17AF321F69DDC8001CAA55 /* Garage.swift */; };
 		EF19094C1F69D87400EF3DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19094B1F69D87400EF3DCF /* AppDelegate.swift */; };
 		EF19094E1F69D87400EF3DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19094D1F69D87400EF3DCF /* ViewController.swift */; };
 		EF1909511F69D87400EF3DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF19094F1F69D87400EF3DCF /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF17AF321F69DDC8001CAA55 /* Garage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Garage.swift; sourceTree = "<group>"; };
 		EF1909481F69D87400EF3DCF /* DrivingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrivingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF19094B1F69D87400EF3DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF19094D1F69D87400EF3DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		EF19093F1F69D87400EF3DCF = {
 			isa = PBXGroup;
 			children = (
+				BF17AF321F69DDC8001CAA55 /* Garage.swift */,
 				EF19095F1F69D90B00EF3DCF /* Car.swift */,
 				EF19094A1F69D87400EF3DCF /* DrivingApp */,
 				EF1909491F69D87400EF3DCF /* Products */,
@@ -142,6 +145,7 @@
 			files = (
 				EF19094E1F69D87400EF3DCF /* ViewController.swift in Sources */,
 				EF19094C1F69D87400EF3DCF /* AppDelegate.swift in Sources */,
+				BF17AF331F69DDC8001CAA55 /* Garage.swift in Sources */,
 				EF1909601F69D90B00EF3DCF /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				EF19095C1F69D87400EF3DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

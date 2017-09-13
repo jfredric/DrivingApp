@@ -9,5 +9,8 @@
 import Foundation
 
 class Car {
+    var speedometor = 1235
+    var wheels = 4
+    var color = "white"
     
 }
